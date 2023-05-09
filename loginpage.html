@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <script type="text/javascript">
+        function log(){ var password1 =document.f1.password.value;
+        var password2 =document.f1.password2.value;
+         if(password1==password2)
+         {return true;}
+         else
+         { alert(" Pls! enter same password");
+        return false;} 
+        
+        
+        
+
+    }
+        
+    </script>
+</head>
+<body style="text-align: center; margin-top: 15%; background-image:url(https://media.istockphoto.com/id/1404484291/photo/digital-futuristic-showcase-concept-empty-show-scene-abstract-geometric-fantasy-glow-neon.jpg?b=1&s=612x612&w=0&k=20&c=sXsD4m74MXnhDONx-aLABOOTmJ1BkAVnDK63pKSHdwk=);">
+    
+   <label style="color: aqua;"> Enter Your Name<br><input type="name" name="name"></label><br><br>
+
+    <label style="color: aqua;"> Enter Email-id <br> <input type="email" name="emailid"></label><br><br>
+    <form name="f1" action="new.html" onsubmit="return log()">
+    <label style="color: aqua;">Password <br><input type="password" name="password"></label> <br><br>
+   <label style="color: aqua;"> Re enter password:<br><input type="password" name="password2"><br><br></label>
+    <input style="text-align: center;" type="submit">
+    
+    </form>
+
+    
+</body>
+</html>
